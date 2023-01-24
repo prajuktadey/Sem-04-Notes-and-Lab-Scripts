@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-03</title>
+    <style>
+      body {
+        font-family: Calibri, Helvetica, sans-serif;
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="post" action="thanks.html">
+      <label for="sname">Name:</label>
+      <input type="text" size="20" maxlength="30" />
+
+      <br />
+      <br />
+
+      <label for="address">Address:</label>
+      <textarea name="address" rows="5" cols="25"></textarea>
+
+      <br />
+      <br />
+
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd" minlength="8" />
+
+      <br />
+      <br />
+
+      <label for="birthday">Date of Birth:</label>
+      <input type="date" id="birthday" name="birthday" />
+
+      <br />
+      <br />
+
+      <label for="gender">Gender: </label>
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+      <input type="radio" name="gender" value="non" />Non-Binary
+
+      <br />
+      <br />
+
+      <label for="hobby">Hobbies: </label>
+      <input type="checkbox" name="hobby" />Reading
+      <input type="checkbox" name="hobby" />Writing
+      <input type="checkbox" name="hobby" />Gaming
+      <input type="checkbox" name="hobby" />Sports
+      <input type="checkbox" name="hobby" />Watching T.V
+
+      <br />
+      <br />
+
+      <label>Year of Graduation:</label>
+      <select>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="semail">Email:</label>
+      <input type="text" size="20" maxlength="30" />
+
+      <br />
+      <br />
+    </form>
+    <button
+      onclick="window.location.href='http://127.0.0.1:5500/assignment3/thanks.html';"
+    >
+      Submit
+    </button>
+    <input type="reset" value="Clear" />
+  </body>
+</html>
