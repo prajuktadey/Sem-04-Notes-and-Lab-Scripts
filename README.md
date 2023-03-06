@@ -1,3 +1,5 @@
 # Sem-04-Notes-and-Lab-Scripts
 
-![](https://github.com/Sem-04-Notes-and-Lab-Scripts/giphy.gif)
+<div id="header" align="center">
+  <img src="https://giphy.com/gifs/writing-working-on-novel-J5msayqAHXKg9lSBRP" width="450" height="250"/>
+</div>
